@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Signika', 'sans-serif';
+    background-color: rgb(241, 241, 241);
+}
+
+header{
+    background-color: #5000ca;
+}
+
+#svg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 15px auto 30px auto;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color:#5000ca ;
+}
+
+
+
+
+/* VIGNETTE */
+
+@media only screen and (max-width: 980px){
+    #wrapper  {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        margin: 0 auto 50px auto;
+    }
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1200px){
+    #wrapper  {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 1000px;
+        align-items: center;
+        margin: 0 auto 50px auto;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    #wrapper  {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        max-width: 1000px;
+        align-items: center;
+        margin: 0 auto 50px auto;
+    }
+}
+
+
+
+
+/* CONTENU */
+
+article{
+    color: white;
+    display: inline-block;
+    width: 250px;
+    margin: 20px 30px;
+    padding: 10px 10px 25px 10px;
+    text-align: center;
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
+    transition: transform .3s;
+    
+}
+
+article:hover{
+    transform:translateY(-5px);
+}
+
+h3{ 
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Signika', 'sans-serif';
+    font-weight: 400;
+    margin-top: 15px;
+    padding: 15px 30px;  
+    border:  none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px -2px rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* ARTICLE */
+
+.uber{
+    background-color: #000000;
+    box-shadow: 0px 0px 22px -9px #000000;
+}
+
+.airbnb{
+    background-color: #f94144;
+    box-shadow: 0px 0px 22px -9px #f94144;
+}
+
+.instagram{
+    background-color: #f8961e;
+    box-shadow: 0px 0px 22px -9px #f8961e;
+}
+
+.discord{
+    background-color: #964af9;
+    box-shadow: 0px 0px 22px -9px #964af9;
+}
+
+.stripe{
+    background-color: #43aa8b;
+    box-shadow: 0px 0px 22px -9px #43aa8b;
+}
+
+.snapchat{
+    background-color: #f9c74f;
+    box-shadow: 0px 0px 22px -9px #f9c74f;
+}
+

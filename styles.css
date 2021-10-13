@@ -76,7 +76,7 @@ h2{
         display: inline-block;
         width: 400px;
         margin: 30px 30px;
-        padding: 10px 10px 30px 10px;
+        padding: 25px 10px 55px 10px;
         text-align: center;
         border-radius: 20px;
         align-self: center;
@@ -131,7 +131,7 @@ h2{
         display: inline-block;
         width: 350px;
         margin: 20px 30px;
-        padding: 10px 10px 25px 10px;
+        padding: 25px 10px 55px 10px;
         text-align: center;
         border-radius: 20px;
         align-self: center;
@@ -234,6 +234,11 @@ a:hover {
 }
 
 /* ARTICLE */
+
+.opensea{
+    background-color: #2151D5;
+    box-shadow: 0px 0px 22px -9px #2151D5;
+}
 
 .uber{
     background-color: #000000;

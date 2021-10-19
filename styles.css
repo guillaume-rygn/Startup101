@@ -235,6 +235,11 @@ a:hover {
 
 /* ARTICLE */
 
+.udemy{
+    background-color: #9f33e8;
+    box-shadow: 0px 0px 22px -9px #9f33e8;
+}
+
 .opensea{
     background-color: #2151D5;
     box-shadow: 0px 0px 22px -9px #2151D5;

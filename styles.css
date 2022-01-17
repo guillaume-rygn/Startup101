@@ -235,6 +235,11 @@ a:hover {
 
 /* ARTICLE */
 
+.spotify{
+    background-color: #1DB954;
+    box-shadow: 0px 0px 22px -9px #1DB954;
+}
+
 .udemy{
     background-color: #9f33e8;
     box-shadow: 0px 0px 22px -9px #9f33e8;

@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://www.startup101.cf/"><img src="https://img2.freepng.fr/20180329/sze/kisspng-rocket-league-guess-the-emoji-sticker-spaceship-5abca83c645165.3470159215223132764109.jpg" alt="Startup101" width="200"></a>
+  <a href="https://www.startup101.cf/"><img src="https://images.emojiterra.com/google/android-10/512px/1f680.png" alt="Startup101" width="200"></a>
   <br>
 STARTUP101  <br>
 </h1>
